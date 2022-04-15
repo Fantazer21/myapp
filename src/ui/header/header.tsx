@@ -15,6 +15,9 @@ import Burger from "./burger/burger";
 
 
 const CustomSwitch = styled(Switch)(({ theme }) => ({
+    '& .MuiSwitch-switchBase.Mui-disabled': {
+        backgroundColor: '#6a1b9a',
+    },
     '& .MuiSwitch-switchBase.Mui-checked': {
         color: '#6a1b9a',
         '&:hover': {
@@ -58,7 +61,7 @@ function Header() {
                 <CustomSwitch  defaultChecked onClick={() => changeLanguage()}/>
                 <img src={reduxLogo} className={s.ReduxLogo} alt="Redux-Logo" width={50}/>
             </div>
-            <Burger/>
+                <Burger/>
         </div>
     );
 }

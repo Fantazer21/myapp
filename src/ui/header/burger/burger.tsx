@@ -17,7 +17,6 @@ const Burger = () => {
     }
 
     return (
-            <nav role="navigation">
                 <div className={s.menuToggle}>
                     <input className={s.menuToggleInput} type="checkbox" />
                     <span className={s.menuToggleSpan}></span>
@@ -32,7 +31,6 @@ const Burger = () => {
                         }
                     </ul>
                 </div>
-            </nav>
     );
 };
 

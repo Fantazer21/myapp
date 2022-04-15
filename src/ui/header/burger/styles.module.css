@@ -8,15 +8,8 @@ body {
 }
 
 .menuToggle {
-    display: flex;
-    flex-direction: column;
     position: relative;
-    top: 23px;
-    right: 15px;
-    /*left: 50px;*/
-    z-index: 1;
-    -webkit-user-select: none;
-    user-select: none;
+    right: 20px;
 }
 
 @media screen and (min-width: 885px ) {
@@ -92,7 +85,7 @@ body {
 }
 
 .menu {
-    margin: 48px 0 0 -104px;
+    margin: 22px 0 0 -98px;
     position: absolute;
     background: grey;
     list-style-type: none;
