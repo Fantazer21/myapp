@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/myPortfolio-2.0/static/css/main.b82d9227.css",
+    "main.js": "/myPortfolio-2.0/static/js/main.abe9f59f.js",
+    "static/js/787.e149f58b.chunk.js": "/myPortfolio-2.0/static/js/787.e149f58b.chunk.js",
+    "static/media/preloader.gif": "/myPortfolio-2.0/static/media/preloader.a2ec12a5bb56fda092f1.gif",
+    "static/media/giphy.gif": "/myPortfolio-2.0/static/media/giphy.05f035b3a27b38553a6a.gif",
+    "static/media/git.gif": "/myPortfolio-2.0/static/media/git.33956a4d2363b13a1b5c.gif",
+    "static/media/IlyaStepanov.pdf": "/myPortfolio-2.0/static/media/IlyaStepanov.3691270ccec30f315e24.pdf",
+    "static/media/in.png": "/myPortfolio-2.0/static/media/in.ab7644f18965cdeea483.png",
+    "static/media/test.svg": "/myPortfolio-2.0/static/media/test.71ebdd05bdb55b3fdf1fd0f0ae88e3bd.svg",
+    "static/media/frontend.svg": "/myPortfolio-2.0/static/media/frontend.a2a8832e2cdaae638988d94e1cd80370.svg",
+    "static/media/design.svg": "/myPortfolio-2.0/static/media/design.a3ff109878f7d03279bdcc9d63b5ed10.svg",
+    "static/media/books-stack-of-three.svg": "/myPortfolio-2.0/static/media/books-stack-of-three.cf405735d101fa8c0f1cc93f69a87a55.svg",
+    "static/media/reactLogo.svg": "/myPortfolio-2.0/static/media/reactLogo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/reduxLogo.svg": "/myPortfolio-2.0/static/media/reduxLogo.d81fad54282cfb5c2e14133ee4061ee0.svg",
+    "static/media/phone.svg": "/myPortfolio-2.0/static/media/phone.915675a4fe5b126e1af021a8b8a229d7.svg",
+    "index.html": "/myPortfolio-2.0/index.html",
+    "main.b82d9227.css.map": "/myPortfolio-2.0/static/css/main.b82d9227.css.map",
+    "main.abe9f59f.js.map": "/myPortfolio-2.0/static/js/main.abe9f59f.js.map",
+    "787.e149f58b.chunk.js.map": "/myPortfolio-2.0/static/js/787.e149f58b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b82d9227.css",
+    "static/js/main.abe9f59f.js"
+  ]
+}
