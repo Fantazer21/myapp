@@ -1,0 +1,36 @@
+.image {
+    border-radius: 50% 20% / 10% 40%;
+    width: 300px;
+    height: 300px;
+    z-index: 3;
+}
+.title {
+    color: white;
+}
+
+
+@media screen and (max-width: 885px ){
+    .image {
+        border-radius: 50% 20% / 10% 40%;
+        width: 200px;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 550px ){
+    .mainContainer {
+        width: 340px;
+        height: 320px;
+        background-color: grey;
+        border-radius: 30px;
+        opacity: 0.8;
+        display: flex;
+    }
+    .image {
+        width: 130px;
+        height: 130px;
+        border-radius: 50% 20% / 10% 40%;
+    }
+    .title {
+        font-size: 23px;
+    }
+}

@@ -1,0 +1,89 @@
+.ReactLogo {
+    margin-left: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .ReactLogo {
+        animation: React-spin infinite 10s linear;
+    }
+}
+@keyframes React-spin {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+.ReduxLogo {
+    margin-right: 40px;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .ReduxLogo {
+        animation: Redux-logo infinite 10s linear;
+    }
+}
+@keyframes Redux-logo {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+.AppHeader {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    /*align-items: center;*/
+    justify-content: space-between;
+    color: white;
+    position: fixed;
+    z-index: 3;
+
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 885px ){
+    .Navbar {
+        display: none;
+    }
+}
+.elNavBar {
+    margin: 20px 60px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.elNavBar:hover {
+    color: cyan;
+    text-shadow: 0 0 16px rgba(244,162,97,0.64);
+}
+
+.statusActive {
+    color: cyan;
+    margin: 20px 60px;
+    font-size: 1.5rem;
+}
+.rSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+

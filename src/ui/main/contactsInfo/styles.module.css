@@ -1,0 +1,68 @@
+.contactsInfoWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.wrapperInfoBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 200px;
+    border: black solid;
+    border-radius: 10px;
+    margin: 20px;
+    justify-content: space-around;
+}
+.imageCall {
+    width: 200px;
+    height: 170px;
+    opacity: 0.8;
+}
+
+.imageGit {
+    width: 230px;
+    height: 200px;
+}
+.hireMe {
+    display: flex;
+}
+
+.imageCv {
+    width: 200px;
+    height: 190px;
+}
+.linkedIn {
+    width: 230px;
+    height: 200px;
+}
+
+@media screen and (max-width: 550px ){
+    .wrapperInfoBlock {
+        width: 140px;
+        height: 138px;
+        margin: 0;
+        font-size: 13px;
+    }
+
+
+    .imageCall {
+        width: 130px;
+        height: 100px;
+        opacity: 0.8;
+    }
+    .imageGit {
+        width: 150px;
+        height: 120px;
+    }
+    .imageCv {
+        width: 156px;
+        height: 127px;
+    }
+    .linkedIn {
+        width: 150px;
+        height: 130px;
+    }
+}
