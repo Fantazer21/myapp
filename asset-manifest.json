@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/myapp/static/css/main.df04096b.css",
-    "main.js": "/myapp/static/js/main.75f104bf.js",
+    "main.css": "/myapp/static/css/main.5673f4f7.css",
+    "main.js": "/myapp/static/js/main.f4c85cc4.js",
+    "static/js/937.650d8c63.chunk.js": "/myapp/static/js/937.650d8c63.chunk.js",
     "static/js/787.e149f58b.chunk.js": "/myapp/static/js/787.e149f58b.chunk.js",
     "static/media/preloader.gif": "/myapp/static/media/preloader.a2ec12a5bb56fda092f1.gif",
     "static/media/giphy.gif": "/myapp/static/media/giphy.05f035b3a27b38553a6a.gif",
@@ -16,12 +17,13 @@
     "static/media/reduxLogo.svg": "/myapp/static/media/reduxLogo.d81fad54282cfb5c2e14133ee4061ee0.svg",
     "static/media/phone.svg": "/myapp/static/media/phone.915675a4fe5b126e1af021a8b8a229d7.svg",
     "index.html": "/myapp/index.html",
-    "main.df04096b.css.map": "/myapp/static/css/main.df04096b.css.map",
-    "main.75f104bf.js.map": "/myapp/static/js/main.75f104bf.js.map",
+    "main.5673f4f7.css.map": "/myapp/static/css/main.5673f4f7.css.map",
+    "main.f4c85cc4.js.map": "/myapp/static/js/main.f4c85cc4.js.map",
+    "937.650d8c63.chunk.js.map": "/myapp/static/js/937.650d8c63.chunk.js.map",
     "787.e149f58b.chunk.js.map": "/myapp/static/js/787.e149f58b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df04096b.css",
-    "static/js/main.75f104bf.js"
+    "static/css/main.5673f4f7.css",
+    "static/js/main.f4c85cc4.js"
   ]
 }
