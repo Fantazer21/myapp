@@ -4,6 +4,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+    cursor: pointer;
 }
 
 .wrapperInfoBlock {
@@ -16,6 +17,7 @@
     border-radius: 10px;
     margin: 20px;
     justify-content: space-around;
+    color: #232323;
 }
 .image {
     width: 100px;

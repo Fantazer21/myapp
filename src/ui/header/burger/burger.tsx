@@ -18,7 +18,7 @@ const Burger = () => {
 
     return (
                 <div className={s.menuToggle}>
-                    <input className={s.menuToggleInput} type="checkbox" />
+                    <input  className={s.menuToggleInput} type="checkbox" />
                     <span className={s.menuToggleSpan}></span>
                     <span className={s.menuToggleSpan}></span>
                     <span className={s.menuToggleSpan}></span>

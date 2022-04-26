@@ -4,11 +4,20 @@ import books from './books-stack-of-three.svg'
 import front from './frontend.svg'
 import design from './design.svg'
 import test from './test.svg'
+import {useDispatch} from "react-redux";
+import {setStatusMenuAC} from "../../../bll/reducers/setActiveMenuReducer";
+import {setDelayAC} from "../../../bll/reducers/setDelayStatusReducer";
 
 
 const StackInfo = () => {
+    const dispatch = useDispatch()
+
+    const changeStatus = () => {
+        dispatch(setStatusMenuAC(2))
+        dispatch(setDelayAC(true))
+    }
     return (
-        <div className={s.stackContainer}>
+        <div onClick={changeStatus} className={s.stackContainer}>
 
             <div className={s.wrapperInfoBlock}>
                 <img className={s.image} src={books} alt="books" />

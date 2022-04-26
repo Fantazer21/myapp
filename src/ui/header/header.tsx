@@ -1,33 +1,33 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import reactLogo from "./reactLogo.svg";
 import reduxLogo from "./reduxLogo.svg";
 import s from './styles.module.css'
 import {useDispatch, useSelector} from "react-redux";
 import {AppRootStateType} from "../../bll/store";
 import {navBarData} from "../../dal/dataForPage";
-import {setLanguageAC} from "../../bll/reducers/setLanguageReducer";
+// import {setLanguageAC} from "../../bll/reducers/setLanguageReducer";
 import {setStatusMenuAC} from "../../bll/reducers/setActiveMenuReducer";
 import {setDelayAC} from "../../bll/reducers/setDelayStatusReducer";
 
-import { alpha, styled } from '@mui/material/styles';
-import Switch from '@mui/material/Switch';
+// import { alpha, styled } from '@mui/material/styles';
+// import Switch from '@mui/material/Switch';
 import Burger from "./burger/burger";
 
-
-const CustomSwitch = styled(Switch)(({ theme }) => ({
-    '& .MuiSwitch-switchBase.Mui-disabled': {
-        backgroundColor: '#6a1b9a',
-    },
-    '& .MuiSwitch-switchBase.Mui-checked': {
-        color: '#6a1b9a',
-        '&:hover': {
-            backgroundColor: alpha('#6a1b9a', theme.palette.action.hoverOpacity),
-        },
-    },
-    '& .MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track': {
-        backgroundColor: '#6a1b9a',
-    },
-}));
+//
+// const CustomSwitch = styled(Switch)(({ theme }) => ({
+//     '& .MuiSwitch-switchBase.Mui-disabled': {
+//         backgroundColor: '#6a1b9a',
+//     },
+//     '& .MuiSwitch-switchBase.Mui-checked': {
+//         color: '#6a1b9a',
+//         '&:hover': {
+//             backgroundColor: alpha('#6a1b9a', theme.palette.action.hoverOpacity),
+//         },
+//     },
+//     '& .MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track': {
+//         backgroundColor: '#6a1b9a',
+//     },
+// }));
 
 
 function Header() {
@@ -36,10 +36,10 @@ function Header() {
     const dispatch = useDispatch()
     const navbar = navBarData[language]
 
-    const changeLanguage = () => {
-        dispatch(setLanguageAC((language === 'RU') ? 'ENG' : 'RU'))
-        dispatch(setDelayAC(true))
-    }
+    // const changeLanguage = () => {
+    //     dispatch(setLanguageAC((language === 'RU') ? 'ENG' : 'RU'))
+    //     dispatch(setDelayAC(true))
+    // }
 
     const changeStatus = (param: any) => {
         dispatch(setStatusMenuAC(param))
@@ -58,7 +58,7 @@ function Header() {
                 }
             </div>
             <div className={s.rSection}>
-                <CustomSwitch  defaultChecked onClick={() => changeLanguage()}/>
+                {/*<CustomSwitch  defaultChecked onClick={() => changeLanguage()}/>*/}
                 <img src={reduxLogo} className={s.ReduxLogo} alt="Redux-Logo" width={50}/>
             </div>
                 <Burger/>
